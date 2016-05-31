@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  InfoViewController.h
 //  draggingtest2
 //
 //  Created by  Igor Zhukov on 31.05.16.
@@ -8,7 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint *infoHeight;
+@interface InfoViewController : UIViewController
 @end
-

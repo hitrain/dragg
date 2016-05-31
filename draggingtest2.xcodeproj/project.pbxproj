@@ -13,6 +13,7 @@
 		91C761DB1CFDAEE500A0F19F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C761D91CFDAEE500A0F19F /* Main.storyboard */; };
 		91C761DD1CFDAEE500A0F19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C761DC1CFDAEE500A0F19F /* Assets.xcassets */; };
 		91C761E01CFDAEE500A0F19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C761DE1CFDAEE500A0F19F /* LaunchScreen.storyboard */; };
+		91C761E91CFDAF2800A0F19F /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C761E81CFDAF2800A0F19F /* InfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		91C761DC1CFDAEE500A0F19F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91C761DF1CFDAEE500A0F19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91C761E11CFDAEE500A0F19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C761E71CFDAF2800A0F19F /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		91C761E81CFDAF2800A0F19F /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				91C761DE1CFDAEE500A0F19F /* LaunchScreen.storyboard */,
 				91C761E11CFDAEE500A0F19F /* Info.plist */,
 				91C761D01CFDAEE500A0F19F /* Supporting Files */,
+				91C761E71CFDAF2800A0F19F /* InfoViewController.h */,
+				91C761E81CFDAF2800A0F19F /* InfoViewController.m */,
 			);
 			path = draggingtest2;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				91C761D81CFDAEE500A0F19F /* ViewController.m in Sources */,
 				91C761D51CFDAEE500A0F19F /* AppDelegate.m in Sources */,
+				91C761E91CFDAF2800A0F19F /* InfoViewController.m in Sources */,
 				91C761D21CFDAEE500A0F19F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
